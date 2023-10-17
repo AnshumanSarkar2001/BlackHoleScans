@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/space.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Comic Sans MS", "Anime Ace BB";
+    src: url("../fonts/animeace2_bld.ttf") format("truetype");
+    color: whitesmoke;
+}
+
+@font-face {
+    font-family: "Anime Ace BB";
+    src: url("../fonts/animeace2_bld.ttf") format("truetype");
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.details {
+    padding: 20px;
+    height: 400px;
+}
+
+.blur{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+div.heading{
+    font-size: 24px;
+}
+
+.button{
+    width: 150px !important;
+}
+
+.chapter-list{
+    padding: 20px;
+}
+
+.translucent {
+    background-color: rgba(46, 45, 45, 0.5);
+}
+
+h3 {
+    color: khaki;
+}
+
+a.title {
+    text-align: center;
+    font-family: 'Anime Ace BB';
+    font-size: 64px;
+    text-decoration: none;
+    background-image: repeating-linear-gradient(45deg, #ff0000, #ff6600 20px, #ffcc00 40px, #33cc33 60px, #0099cc 80px, #6633cc 100px, #cc33cc 120px);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 600% 100%;
+    animation: gradient 30s linear infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+a.no-underline {
+    text-decoration: none;
+    color: white;
+}
