@@ -16,6 +16,13 @@ body {
     src: url("../fonts/animeace2_bld.ttf") format("truetype");
 }
 
+.header {
+    font-size: x-large;
+    color: khaki;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 h1 {
     text-align: center;
 }
@@ -27,22 +34,29 @@ h1 {
 .details {
     padding: 20px;
     height: 400px;
+    font-weight: bold;
+    text-shadow: -0.25px -0.25px 0 #000, 0.25px -0.25px 0 #000, -0.25px 0.25px 0 #000, 0.25px 0.25px 0 #000;
 }
 
-.blur{
+.outlined-text {
+    font-weight: bold;
+    text-shadow: -0.25px -0.25px 0 #000, 0.25px -0.25px 0 #000, -0.25px 0.25px 0 #000, 0.25px 0.25px 0 #000;
+}
+
+.blur {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
 
-div.heading{
+div.heading {
     font-size: 24px;
 }
 
-.button{
+.button {
     width: 150px !important;
 }
 
-.chapter-list{
+.chapter-list {
     padding: 20px;
 }
 
